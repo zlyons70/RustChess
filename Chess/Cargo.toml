@@ -4,3 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+[lib]
+name = "chess"
+path = "src/lib.rs"
+[[bin]]
+name = "chess_bin"
+path = "src/main.rs"
