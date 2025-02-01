@@ -1,0 +1,52 @@
+Making the board representation
+    - Bitboard representation
+    - Square representation
+
+Creating Pieces as structs
+    - Piece struct
+        - PieceType
+        - Color
+        - Position
+
+    - PieceType enum
+        - Pawn
+            - EnPassant
+            - Promotion
+        - Rook
+            - Castling
+        - Knight
+        - Bishop
+        - Queen
+        - King
+            - Castling
+
+    - Color enum
+        - White
+        - Black
+    
+    - Position enum
+
+Game State representation
+    - GameState struct
+        - Board
+        - Turn
+        - CastlingRights
+        - EnPassantSquare
+        - HalfMoveClock
+        - FullMoveNumber
+
+    - Should also contain FEN notation string
+
+AI Implementation
+    - Minimax
+    - Alpha-Beta Pruning
+    - Iterative Deepening
+    - Quiescence Search
+    - Transposition Table
+    - Evaluation Function
+    - Opening Book
+    - Endgame Tablebases
+
+Bit board notes:
+    Bit boards are used to generate the possible moves, that uses bitwise operations
+    to generate the possible moves for a piece. 
